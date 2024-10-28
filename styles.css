@@ -1,0 +1,60 @@
+/* Base */
+body {
+     font-family: Arial, sans-serif;
+     line-height: 1.6;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ h1, h2 {
+     margin: 0;
+ }
+ 
+ /* Layout */
+ .header {
+     display: flex;
+     justify-content: center;
+     padding: 20px;
+     background-color: #333;
+     color: white;
+ }
+ 
+ .layout {
+     padding: 20px;
+ }
+ 
+ .footer {
+     text-align: center;
+     padding: 10px;
+     background-color: #f1f1f1;
+     margin: 200px;
+ }
+ 
+ /* Module */
+ .card {
+     border: 1px solid #ccc;
+     padding: 15px;
+     border-radius: 5px;
+     background-color: #fff;
+ }
+ 
+ /* State */
+ .btn {
+     padding: 10px 15px;
+     background-color: #007bff;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+ 
+ .btn.is-active {
+     background-color: #0056b3;
+ }
+ 
+ /* Theme */
+ .theme-dark .header {
+     background-color: #222;
+     color: #fff;
+ }
+ 
